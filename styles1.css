@@ -1,0 +1,30 @@
+/* Basic Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1589329487081-ff9323a01b51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    max-width: 700px;
+}
+
+.hero button {
+    background-color: #007bff; /* Example color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
